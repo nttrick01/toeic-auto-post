@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom right, #e0f7fa, #e3f2fd);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      background: #ffffffee;
+      width: 700px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      padding: 40px;
+      box-sizing: border-box;
+    }
+    .logo {
+      width: 120px;
+      margin-bottom: 20px;
+    }
+    .question {
+      font-size: 22px;
+      color: #333;
+      margin: 20px 0;
+    }
+    .choices {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .choice {
+      font-size: 18px;
+      padding: 15px;
+      border-radius: 12px;
+      background: #f0f0f0;
+      border-left: 8px solid #ccc;
+    }
+    .choice.a { border-color: #2196f3; }
+    .choice.b { border-color: #e91e63; }
+    .choice.c { border-color: #ff9800; }
+    .choice.d { border-color: #9e9e9e; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img class="logo" src="LOGO_PATH" />
+    <div class="question">QUESTION_TEXT</div>
+    <div class="choices">
+      <div class="choice a">(A) CHOICE_A</div>
+      <div class="choice b">(B) CHOICE_B</div>
+      <div class="choice c">(C) CHOICE_C</div>
+      <div class="choice d">(D) CHOICE_D</div>
+    </div>
+  </div>
+</body>
+</html>

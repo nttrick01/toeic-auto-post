@@ -1,0 +1,16 @@
+ 
+[
+  {
+    "id": "q001",
+    "question": "The manager has decided to ___ the meeting until next week.",
+    "choices": {
+      "A": "postpone",
+      "B": "postponing",
+      "C": "postponed",
+      "D": "postpones"
+    },
+    "correct": "A",
+    "explanation": "Sau 'decide to' là động từ nguyên mẫu.",
+    "translation": "Người quản lý đã quyết định **hoãn** cuộc họp cho đến tuần sau."
+  }
+]
